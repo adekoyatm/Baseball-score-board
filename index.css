@@ -1,0 +1,57 @@
+body {
+    display: block;
+    margin: 0;
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-section {
+    display: inline-block;
+    text-align: center;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: brown;
+    text-align: center;
+    font-feature-settings: "abvf";
+    margin: auto;
+    width: 90%;
+    height: 40%;
+    margin-bottom: 1em;
+}
+
+.addition-btns {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-align: center;     
+    background-color: darkmagenta;
+    color: white;
+    border: 2px solid white;
+    width: 25%;
+    font-size: x-small;
+    border-radius: 0.2rem;
+}
+
+#reset-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4em;    
+    width: 100%;
+    border-radius: 0.2rem;
+    background-color: darkmagenta;
+   
+}
